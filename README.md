@@ -32,7 +32,12 @@ Usefull git shortcuts and autocomplete for the [git-scm](https://git-scm.com/dow
 **gr**       | <span style="color: #CE9178"> "git reset " </span>
 
 # Instalation
-To install it just add it on Windows under your current username app data folder (**C:\Users\\_username_**)
+To install it just add **.bashrc** and **.bash\_profile** your current username app data folder (**C:\Users\\_username_** - it's Windows :D).
+
+File | Description
+--- | ---
+**.bashrc** | Contains the aliases (shortcuts) for the git commands
+**.bash\_profile** | Contains autocomplete commands for the aliases (aka. use `tab` for autocomplete on known names)
 
 ###
 *This is distributed under GNU GPL 3 licence.*
