@@ -1,5 +1,6 @@
+#https://github.com/andreilucaci/git-shortcuts
+
 alias less='less -r'
-# --show-control-chars: help showing Korean or accented characters
 alias ls='ls -F --color --show-control-chars'
 alias ll='ls -l'
 alias gs='git status '
@@ -12,7 +13,7 @@ alias upo='git push -u origin '
 alias ga='git add '
 alias gaa='git add -A'
 alias gb='git branch '
-alias gc='git commit'
+alias gc='git commit '
 alias gcm='git commit -m '
 alias gd='git diff'
 alias go='git checkout '
