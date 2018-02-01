@@ -33,7 +33,11 @@ Usefull git shortcuts and autocomplete for the [git-scm](https://git-scm.com/dow
 **gdf**      | <span style="color: #CE9178"> "git clean -f" </span>
 
 # Instalation
-To install it just add **.bashrc** and **.bash\_profile** your current username app data folder (**C:\Users\\_username_** - it's Windows :D).
+1.  Add **`.bashrc`** and **`.bash\_profile`** your current username app data folder (**`%UserProfile%`**).
+or
+2.  **`copy settings.bat`** which deployes the settings automatically in **`%UserProfile%`** folder
+
+
 
 File | Description
 --- | ---
