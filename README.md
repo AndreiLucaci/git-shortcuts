@@ -30,6 +30,7 @@ Usefull git shortcuts and autocomplete for the [git-scm](https://git-scm.com/dow
 **g**        | <span style="color: #CE9178"> "git " </span>
 **gm**       | <span style="color: #CE9178"> "git merge " </span>
 **gr**       | <span style="color: #CE9178"> "git reset " </span>
+**gdf**      | <span style="color: #CE9178"> "git clean -f" </span>
 
 # Instalation
 To install it just add **.bashrc** and **.bash\_profile** your current username app data folder (**C:\Users\\_username_** - it's Windows :D).
