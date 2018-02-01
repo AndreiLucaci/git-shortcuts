@@ -5,10 +5,10 @@ __git_complete go _git_checkout
 __git_complete gob _git_checkout
 __git_complete gs _git_status
 __git_complete gp _git_pull
-__git_complete gh _git_push
-__git_complete gho _git_push
-__git_complete up _git_push
-__git_complete upo _git_push
+__git_complete gh _git_checkout
+__git_complete gho _git_checkout
+__git_complete up _git_checkout
+__git_complete upo _git_checkout
 __git_complete ga _git_add
 __git_complete gaa _git_add
 __git_complete gb _git_branch
