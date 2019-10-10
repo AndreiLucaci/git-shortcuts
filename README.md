@@ -36,13 +36,14 @@ Usefull git shortcuts and autocomplete for the [git-scm](https://git-scm.com/dow
 ## Automatic
 **`copy settings.bat`** which deployes the settings automatically in **`%UserProfile%`** folder
 ## Manual
-Add **`.bashrc`** and **`.bash\_profile`** your current username app data folder (**`%UserProfile%`**).
+Add **`.bashrc`** and **`.bash\_profile`** your current username app data folder (**`%UserProfile%`**). If you want also the monokai theme, add **`.minttyrc`** to the same folder as well.
 
 
 File | Description
 --- | ---
 **.bashrc** | Contains the aliases (shortcuts) for the git commands
 **.bash\_profile** | Contains autocomplete commands for the aliases (aka. use `tab` for autocomplete on known names)
+**.minttyrc** | Contains monokai theme for the mintty editor
 
 ###
 *This is distributed under GNU GPL 3 licence.*
