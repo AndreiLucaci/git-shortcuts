@@ -33,9 +33,11 @@ Usefull git shortcuts and autocomplete for the [git-scm](https://git-scm.com/dow
 **gdf**      | <span style="color: #CE9178"> "git clean -f" </span>
 
 # Instalation
-## Automatic
+
+## Windows:
+### Automatic
 **`copy settings.bat`** which deployes the settings automatically in **`%UserProfile%`** folder
-## Manual
+### Manual
 Add **`.bashrc`** and **`.bash\_profile`** your current username app data folder (**`%UserProfile%`**). If you want also the monokai theme, add **`.minttyrc`** to the same folder as well.
 
 
@@ -44,6 +46,13 @@ File | Description
 **.bashrc** | Contains the aliases (shortcuts) for the git commands
 **.bash\_profile** | Contains autocomplete commands for the aliases (aka. use `tab` for autocomplete on known names)
 **.minttyrc** | Contains monokai theme for the mintty editor
+
+## MacOs / Linux:
+You can just copy the settings from the **`.bashrc`** file in your settings folder and source it in the **`.bash_profile`**.
+
+This is also integrated with the **zsh**, you can add the contents of the **`.bashrc`** to **`~/.zshrc`** and **`source`** it.
+
+I assume that if you are here, you already know how to add / source some aliases :). If not, please write me / issue this repo to add a more clear tutorial on how to install these.
 
 ###
 *This is distributed under GNU GPL 3 licence.*
