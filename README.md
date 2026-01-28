@@ -47,12 +47,37 @@ File | Description
 **.bash\_profile** | Contains autocomplete commands for the aliases (aka. use `tab` for autocomplete on known names)
 **.minttyrc** | Contains monokai theme for the mintty editor
 
-## MacOs / Linux:
+## Linux:
 You can just copy the settings from the **`.bashrc`** file in your settings folder and source it in the **`.bash_profile`**.
 
-This is also integrated with the **zsh**, you can add the contents of the **`.bashrc`** to **`~/.zshrc`** and **`source`** it.
+## MacOs:
+There is also a file for `.zsh` with configurations build for that.
 
-I assume that if you are here, you already know how to add / source some aliases :). If not, please write me / issue this repo to add a more clear tutorial on how to install these.
+Instructions:
+
+#### Direct download
+1. Download this file
+`curl -o ~/.git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc`
+2. Source it from your main `~/.zshrc`:
+`source ~/.git-shortcuts.zsh`
+3. Reload your shell:
+`source ~/.zshrc`
+
+#### Modular (recommended)
+If you want an alternative modular approach... this keeps your shell config clean and scalable.
+
+1. Create a config folder:
+`mkdir -p ~/.zshrc.d`
+2. Download the shortcuts file:
+`curl -o ~/.zshrc.d/git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc`
+3. Add this once to your main `~/.zshrc`:
+```
+for file in ~/.zshrc.d/*.zsh; do
+  [ -r "$file" ] && source "$file"
+done
+```
+4. Reload:
+`source ~/.zshrc`
 
 ###
 *This is distributed under GNU GPL 3 licence.*
