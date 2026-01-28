@@ -57,19 +57,29 @@ Instructions:
 
 #### Direct download
 1. Download this file
-`curl -o ~/.git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc`
+```
+curl -o ~/.git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc
+```
 2. Source it from your main `~/.zshrc`:
-`source ~/.git-shortcuts.zsh`
+```
+source ~/.git-shortcuts.zsh
+```
 3. Reload your shell:
-`source ~/.zshrc`
+```
+source ~/.zshrc
+```
 
 #### Modular (recommended)
 If you want an alternative modular approach... this keeps your shell config clean and scalable.
 
 1. Create a config folder:
-`mkdir -p ~/.zshrc.d`
+```
+mkdir -p ~/.zshrc.d
+```
 2. Download the shortcuts file:
-`curl -o ~/.zshrc.d/git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc`
+```
+curl -o ~/.zshrc.d/git-shortcuts.zsh https://raw.githubusercontent.com/AndreiLucaci/git-shortcuts/master/.zshrc
+```
 3. Add this once to your main `~/.zshrc`:
 ```
 for file in ~/.zshrc.d/*.zsh; do
@@ -77,7 +87,9 @@ for file in ~/.zshrc.d/*.zsh; do
 done
 ```
 4. Reload:
-`source ~/.zshrc`
+```
+source ~/.zshrc
+```
 
 ###
 *This is distributed under GNU GPL 3 licence.*
